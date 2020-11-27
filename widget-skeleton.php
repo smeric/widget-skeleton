@@ -1,14 +1,17 @@
 <?php
 /**
- * Plugin Name: Skeleton Widget
- * Description: Skeleton Widget description.
- * Version:     1.1
- * Text Domain: widget-skeleton-text-domain
- * Domain Path: /languages
- *
+ * Plugin Name:       Skeleton Widget
+ * Description:       Skeleton Widget description.
+ * Version:           1.1.1
+ * Text Domain:       widget-skeleton-text-domain
+ * Domain Path:       /languages
+ * Author:            Sébastien Méric
+ * License:           GNU General Public License v2
+ * License URI:       http://www.gnu.org/licenses/gpl-2.0.html
  * Plugin URI:        https://github.com/smeric/widget-skeleton
- * GitHub URI:        smeric/widget-skeleton
- * GitHub Plugin URI: smeric/widget-skeleton
+ * GitHub Plugin URI: https://github.com/smeric/widget-skeleton
+ * Requires at least: 5.2
+ * Requires PHP:      5.6
  */
 
 function widget_skeleton_register_widget() {
