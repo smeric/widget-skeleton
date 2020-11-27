@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Skeleton Widget
  * Description: Skeleton Widget description.
- * Version:     0.1
+ * Version:     1.0
  * Text Domain: widget-skeleton-text-domain
  * Domain Path: /languages
  *
