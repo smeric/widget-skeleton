@@ -5,6 +5,9 @@
  * Version:     0.1
  * Text Domain: widget-skeleton-text-domain
  * Domain Path: /languages
+ *
+ * GitHub Plugin URI: smeric/widget-skeleton
+ * GitHub Plugin URI: https://github.com/smeric/widget-skeleton
  */
 
 function widget_skeleton_register_widget() {
