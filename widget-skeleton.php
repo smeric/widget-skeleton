@@ -85,7 +85,11 @@ class Widget_Skeleton_Widget extends WP_Widget {
      */
     public function form( $instance ) {
         //Defaults
-        $instance = wp_parse_args( (array) $instance, array( 'select' => 'option1' ) );
+        $instance = wp_parse_args( (array) $instance, array(
+	    'title'      => '',
+	    'show_title' => false,
+	    'select'     => 'option1'
+	));
         ?>
         <!-- Widget Title: Text Input -->
         <p>
