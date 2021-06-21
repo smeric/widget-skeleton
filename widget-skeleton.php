@@ -2,7 +2,7 @@
 /**
  * Plugin Name:       Skeleton Widget
  * Description:       Skeleton Widget description.
- * Version:           1.1.1
+ * Version:           1.1.2
  * Text Domain:       widget-skeleton-text-domain
  * Domain Path:       /languages
  * Author:            Sébastien Méric
@@ -68,13 +68,13 @@ class Widget_Skeleton_Widget extends WP_Widget {
 
         if ( in_array( $new_instance['select'], array( 'option1', 'option2', 'option3'  ) ) ) {
             $instance['select'] = $new_instance['select'];
-		}
-		else {
+        }
+        else {
             $instance['select'] = 'option1';
         }
 
         /* Strip tags for title and name to remove HTML (important for text inputs). */
-        $instance['title'] = strip_tags($new_instance['title']);
+        $instance['title']      = strip_tags($new_instance['title']);
         $instance['show_title'] = (bool) $new_instance['show_title'];
 
         return $instance;
@@ -86,10 +86,10 @@ class Widget_Skeleton_Widget extends WP_Widget {
     public function form( $instance ) {
         //Defaults
         $instance = wp_parse_args( (array) $instance, array(
-	    'title'      => '',
-	    'show_title' => false,
-	    'select'     => 'option1'
-	));
+        'title'      => '',
+        'show_title' => false,
+        'select'     => 'option1'
+    ));
         ?>
         <!-- Widget Title: Text Input -->
         <p>
